@@ -6,10 +6,16 @@
     <title></title>
 </head>
 <body>
-<form method="get" action="terceira.html">
-    Nome completo: <input type="text" name="nome"><br><br>
-    Matrícula: <input type="text" name="matricula"><br><br>
-    Linguagem de programação favorita:
+<h1 style="text-align: center">Formulário de cadastro</h1><br><br>
+<form method="get" style="text-align: center" action="terceira.html">
+    <div class="field"><label for="nome">Nome completo: </label>
+        <input type="text" name="nome" id="nome" autofocus=""><br><br>
+    </div>
+    <div class="field">
+    <label for="matricula">Matrícula: </label>
+        <input type="text" name="matricula" id="matricula"><br><br>
+    </div>
+    Linguagem de programação favorita:<br>
     <select>
         <option value="python">Python</option>
         <option value="java">Java</option>
@@ -17,8 +23,8 @@
         <option value="c">C</option>
         <option value="c++">C++</option>
         <option value="outro">Outra</option>
-    </select><br><br>
-    <input type="submit" value="Cadastre-se">
+    </select><br><br><br>
+    <input type="submit" class="btn" value="Cadastre-se">
 </form>
 </body>
 </html>
