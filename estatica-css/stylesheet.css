@@ -1,0 +1,38 @@
+body{
+    background-color: dimgray;
+}
+
+h1{
+    color: palegoldenrod;
+    text-align: center;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: floralwhite;
+}
+
+a{
+    color: antiquewhite;
+}
+
+section.one{
+    border-style: double;
+    border-width: 10px;
+    text-align: center;
+}
+
+a.two{
+    font-size: x-large;
+}
+
+a.two:hover{
+    color: black;
+}
+
+section.three{
+    text-align: center;
+}
