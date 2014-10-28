@@ -1,9 +1,9 @@
 /**
  * Created by leulz on 26/10/14.
  */
-var app = angular.module("myApp", []);
+var app = angular.module("aplicativo", []);
 
-app.controller("myCtrl", function($scope) {
+app.controller("control", function($scope) {
     $scope.aprendidos=[];
     $scope.aprender=[];
 
