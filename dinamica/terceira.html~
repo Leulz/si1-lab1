@@ -6,7 +6,7 @@
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/meu.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <title>Página de Gerenciamento de Temas</title>
 </head>
@@ -14,8 +14,8 @@
 <div class="page-header"><h2 class="text-primary" style="text-align: center">Gerenciador de aprendizagem</h2></div>
 <fieldset><legend class="text-success" style="padding-left: 3%">Aqui você pode digitar temas que deseja aprender e gerenciá-los.</legend></fieldset><br><br>
 <div style="text-align: center">
-    <label for="tema" class="text-primary" style="font-size: larger;display: inline-block">Quero aprender:</label><br>
-    <input class="form-inline" ng-enter="addTema()" ng-model="tema" style="width: 430px" type="text" id="tema" name="tema" placeholder="Pressione <enter> para adicionar à coluna de 'Temas a aprender'.">
+        <label for="tema" class="text-primary" style="font-size: larger;display: inline-block">Quero aprender:</label><br>
+        <input class="form-inline" ng-enter="addTema()" ng-model="tema" style="width: 430px" type="text" id="tema" name="tema" placeholder="Pressione <enter> para adicionar à coluna de 'Temas a aprender'.">
 </div><br>
 <div class="container">
     <div class="panel panel-default" style="float: left;margin-left: 10%;width: 30%">
